@@ -1,0 +1,12 @@
+body {
+    background-color: #f0f8ff;
+    color: hsl(240, 100%, 40%);
+    background-image: url("profile.jpg");
+    background-repeat: no-repeat;
+}
+h1 {
+    color: rgb(0, 255, 255);
+}
+.quotation {
+    background-color: #aaaa00;
+}
