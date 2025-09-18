@@ -28,3 +28,6 @@ table, th, td {
     text-align: center;
     vertical-align: middle;
 }
+th, td {
+    height: 35px;
+}
