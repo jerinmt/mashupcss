@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-inline-size: 100%;
+    display: block;
+    float: left;
+    inline-size: 50%;
+    margin-inline: 20px;
+    border-right: 4px solid #000000;
+    max-inline-size: 400px;
+    padding-right: 50px;
+}
+body {
+    padding-block-start: 100px;
+}
+.page-heading {
+    position: fixed;
+    top: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    padding-inline: 15px;
+}
+.content-box {
+    padding: 20px;
+    line-height: 1.6rem;
+    text-align: center;
+    overflow: scroll;
+}
+.contact-info {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
+    overflow: scroll;
+}
