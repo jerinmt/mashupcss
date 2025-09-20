@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-inline-size: 200px;
+    max-block-size: 200px;
+    display: block;
+    margin-inline: 10px;
+    float: left;
+}
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+h2 {
+    margin-block: 15px;
+}
+p {
+    margin-block: 10px;
+    text-align: start;
+}
+.board {
+    background-color: bisque;
+    padding: 30px;
+    overflow: scroll;
+    position: relative;
+    text-align: center;
+}
+.material-icons {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
