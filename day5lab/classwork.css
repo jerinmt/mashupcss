@@ -30,6 +30,30 @@ a:hover {
     text-decoration: underline;
 }
 
+li {
+    margin-left: 10px;
+}
 li:first-child a {
     color: red;
+}
+
+h1 {
+    text-align: center;
+    margin-block: 30px;
+}
+h2 {
+    text-align: center;
+    margin-block: 10px;
+}
+section {
+    border: 1px solid black;
+}
+section ~ div {
+    background-color: rgb(195, 241, 195);
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-inline: auto;
+    margin-block: 20px;
 }
