@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 150%;
+    color: red;
+}
+
+h3:first-child + h3 {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: blue;
+}
+/* a:visited {
+    color: purple;
+} */
+a:hover {
+    text-decoration: underline;
+}
+
+li:first-child a {
+    color: red;
+}
