@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(239, 239, 239, 0.5);
+    padding: 1px 6px;
+    border: 1px solid #888888;
+    border-radius: 2px;
+    font-size: 13.5px;
+    font-family: Arial, sans-serif;
+}
+a:hover {
+    background-color: rgba(239, 239, 239, 1);
+}
