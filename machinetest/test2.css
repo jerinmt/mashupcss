@@ -1,13 +1,27 @@
+body {
+    padding: 100px;
+}
 a {
     text-decoration: none;
     color: #000000;
-    background-color: rgba(239, 239, 239, 0.5);
+    background-color: rgba(239, 239, 239, 0.6);
     padding: 1px 6px;
     border: 1px solid #888888;
     border-radius: 2px;
-    font-size: 13.5px;
+    font-size: 13.6px;
     font-family: Arial, sans-serif;
 }
 a:hover {
     background-color: rgba(239, 239, 239, 1);
+}
+
+.link-button {
+    background-color: cyan;
+    color: red;
+    border: 2px solid teal;
+    border-radius: 12px;
+    font-weight: bolder;
+}
+hr {
+    margin-block: 30px;
 }
