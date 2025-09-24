@@ -16,6 +16,7 @@ a[href^="https"] {
 img[src$=".jpg"] {
     border-radius: 0px 10px;
 }
+
 .container {
     display: inline-block;
     height: auto;
