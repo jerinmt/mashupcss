@@ -21,7 +21,7 @@ label {
 }
 
 h2 {
-    color: orange;
+    color: orangered;
     margin-block: 50px;
 }
 
@@ -35,7 +35,7 @@ input[type="password"] {
 button {
     margin-block: 16px;
     padding: 8px 16px;
-    background-color: orange;
+    background-color: orangered;
     color: white;
     border: none;
     width: 300px;
@@ -46,21 +46,26 @@ button:hover {
     opacity: 0.9;
 }
 
-div {
-    width: fit-content;
+section {
     height: 100%;
     margin-inline: auto;
     background-color: white;
     padding-inline: 16px;
 }
 
+div {
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+
 @media screen and (orientation: landscape){
-    div {
+    section {
         float: right;
         width: 50%;
     }
     body {
-        background-image: linear-gradient(rgb(177, 107, 177), rgb(255, 211, 129)) ;
+        background-image: linear-gradient(hsl(267, 20%, 68%), rgb(255, 211, 129)) ;
         background-repeat: no-repeat;
         background-size: cover;
     }
